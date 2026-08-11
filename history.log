@@ -1,22 +1,3 @@
- 1454  ll
- 1455  cd kiruh/OneDrive/
- 1456  ll
- 1457  cd Documents/
- 1458  ll
- 1459  cd Python/
- 1460  ll
- 1461  grep -r send *.txt
- 1462  cd ../../../PycharmProjects/
- 1463  ll
- 1464  ll ../
- 1465  grep -r ../qa2048/*.py
- 1466  grep -r send ../qa2048/*.py
- 1467  cd ../qa2048/
- 1468  grep -r send *.py
- 1469  ll
- 1470  grep -r send qa2048/*.py
- 1471  cd ../PycharmProjects/qa2051/
- 1472  grep -r send *.py
  1473  # pwd
  1474  # blblblblb
  1475  pwd
