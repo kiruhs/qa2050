@@ -1,0 +1,675 @@
+ 1454  ll
+ 1455  cd kiruh/OneDrive/
+ 1456  ll
+ 1457  cd Documents/
+ 1458  ll
+ 1459  cd Python/
+ 1460  ll
+ 1461  grep -r send *.txt
+ 1462  cd ../../../PycharmProjects/
+ 1463  ll
+ 1464  ll ../
+ 1465  grep -r ../qa2048/*.py
+ 1466  grep -r send ../qa2048/*.py
+ 1467  cd ../qa2048/
+ 1468  grep -r send *.py
+ 1469  ll
+ 1470  grep -r send qa2048/*.py
+ 1471  cd ../PycharmProjects/qa2051/
+ 1472  grep -r send *.py
+ 1473  # pwd
+ 1474  # blblblblb
+ 1475  pwd
+ 1476  cd years/
+ 1477  pwd
+ 1478  cd -
+ 1479  cd /home/kiruhs/years/
+ 1480  cd -
+ 1481  cd /years
+ 1482  cd years
+ 1483  cd /
+ 1484  pwd
+ 1485  ls
+ 1486  ls -l
+ 1487  ls -l proc/
+ 1488  ls -l
+ 1489  cd home/
+ 1490  ls -l
+ 1491  clear
+ 1493  cd /home/kiruhs/years/
+ 1494  cd
+ 1495  pwd
+ 1496  cd -
+ 1497  cd ~
+ 1498  mkdir qa2050
+ 1499  cd qa2050
+ 1501  ls -l
+ 1502  touch test
+ 1503  touch test.txt
+ 1504  touch test.txt.t.t.y.i
+ 1505  ls -l
+ 1506  echo Hello,world!
+ 1507  echo Hello,world! > test.txt.t.t.y.i 
+ 1508  ls -l
+ 1509  cat test.txt.t.t.y.i 
+ 1510  echo Hello,world! > test
+ 1511  ls -l
+ 1512  echo Hello,world! > test456
+ 1513  ls -l
+ 1514  touch test
+ 1515  ls -l
+ 1516  echo Hello,world! > test456
+ 1517  cat test456 
+ 1518  echo Hello,world! > test456
+ 1519  cat test456 
+ 1520  echo Hello,world! >> test456
+ 1521  cat test456 
+ 1522  echo Hello,world! >> test456
+ 1523  cat test456 
+ 1524  echo Hello,world! > test456
+ 1525  cat test456 
+ 1526  ls -l
+ 1527  test
+ 1529  cd /root/
+ 1530  ls -l 
+ 1531  ls -l /
+ 1532  cd /root/
+ 1533  sudo ls -l /
+ 1534  pwd
+ 1535  ls -l
+ 1538  chmod +x test
+ 1539  ls -l
+ 1541  cat test
+ 1542  chmod -x test
+ 1543  ls -l
+ 1544  chmod -r test
+ 1545  ls -l
+ 1546  cat test
+ 1547  sudo cat test
+ 1548  chmod o+r test
+ 1549  ls -l
+ 1550  chmod o-r test
+ 1551  chmod u+r test
+ 1552  ls -l
+ 1553  chmod g+r test
+ 1554  ls -l
+ 1555  chmod 644 test
+ 1556  ls -l
+ 1557  chmod 755 test
+ 1558  ls -l
+ 1559  chmod 644 test
+ 1560  ls -l
+ 1561  ls --help
+ 1562  ls -la
+ 1563  ls -l
+ 1564  ls -l .
+ 1565  ls -l 
+ 1566  ls -l ..
+ 1567  ls -l
+ 1568  touch .test55
+ 1569  ls -l
+ 1570  ls -la
+ 1571  ls -lA
+ 1572  ls -lAt
+ 1573  ls -lAtr
+ 1574  ls -Atlr
+ 1575  ls -Atlsr
+ 1576  ls -Alstr
+ 1577  ls -Alsr
+ 1578  ls -lsr
+ 1579  ls -lSr
+ 1580  ls -AlSr
+ 1581  ls -AltSr
+ 1582  ls -AlStr
+ 1583  ls -AlSrh
+ 1584  cd ..
+ 1585  ls -AlSrh
+ 1586  ls -AlSr
+ 1587  ls -AlSrh
+ 1588  cd -
+ 1589  ls -l
+ 1590  mkdir new
+ 1591  ls -l new/
+ 1592  cp test456 new/
+ 1593  ls -l new/
+ 1594  ls -l
+ 1595  mv test new/
+ 1596  ls -l new/
+ 1597  ls -l
+ 1598  cd new/
+ 1599  cp test test002
+ 1600  ls -l
+ 1601  cd ..
+ 1602  rm new/test002 
+ 1603  ls -l new/
+ 1604  cd -
+ 1605  mkdir newest
+ 1606  ls -l
+ 1607  rmdir
+ 1608  rmdir newest/
+ 1609  ls -l
+ 1610  cd -
+ 1611  ls -l
+ 1612  rmdir new/
+ 1613  rm new/
+ 1614  mkdir new/1
+ 1615  mkdir new/2
+ 1616  mkdir new/5
+ 1617  ls -l new/
+ 1618  rm new/
+ 1619  rm -r new/
+ 1620  ls -l new/
+ 1621  ls -l 
+ 1622  mkdir new
+ 1623  mkdir new/1
+ 1624  touch new/ttt
+ 1625  ls -l new/
+ 1626  rm -ri new/
+ 1627  ls -l new/
+ 1628  rm -ri new/
+ 1629  mkdir new
+ 1630  mkdir new/1
+ 1631  touch new/ttt
+ 1632  rm -ri new/
+ 1633  clear
+ 1634  ls -l asfsfa
+ 1635  ls -l asfsfa >> err.txt
+ 1636  ls -l
+ 1637  cat err.txt 
+ 1638  ls -l asfsfa 2>> err.txt
+ 1639  ls -l
+ 1640  cat err.txt 
+ 1641  ls -l asfsfa .
+ 1642  ls -l test.txt
+ 1643  ls -l test.txt test456 
+ 1644  ls -l asfsfa .
+ 1645  ls -l asfsfa . 2>>STDERR 1>> STDOUT
+ 1646  ls -ltr
+ 1647  cat STDERR 
+ 1648  cat STDOUT 
+ 1649  cat /etc/passwd
+ 1650  cd ../qa2051/
+ 1651  ls -l
+ 1652  pwd
+ 1653  cd ../../qa2051/
+ 1654  ls -l
+ 1655  cd ..
+ 1656  ls -l
+ 1658  clear
+ 1659  ls -l /
+ 1660  cd /lib
+ 1661  pwd
+ 1662  ls -l
+ 1663  cd /usr/lib
+ 1664  ls -l
+ 1665  cd
+ 1666  cd qa2051/
+ 1667  cd ../qa2050/
+ 1668  ls -l
+ 1669  cd new/
+ 1670  cd -
+ 1671  cd new/
+ 1672  ls -l
+ 1673  mkdir 1
+ 1674  cd 1/
+ 1675  mkdir 2
+ 1676  cd 2/
+ 1677  touch newest
+ 1678  ls -l
+ 1679  ls -l /
+ 1680  cd
+ 1681  cd qa2050/new/1/2/
+ 1682  cd -
+ 1683  ln -s /qa2050/new/1/2 newest
+ 1684  ls -l
+ 1685  unlink newest
+ 1686  ln -s qa2050/new/1/2 newest
+ 1687  ls -l
+ 1688  ls -l newest
+ 1689  cd newest
+ 1690  ls -l
+ 1691  cat newest 
+ 1692  cd -
+ 1693  cd qa2050
+ 1694  ls -l
+ 1695  ls -li
+ 1696  cd -
+ 1697  ls -li
+ 1698  cd qa2050/new/1
+ 1699  ls -li
+ 1700  cd -
+ 1701  ls -li qa2050/new/1/2
+ 1702  stat newest
+ 1703  cd qa2050/new/1/
+ 1704  rmdir 2/
+ 1705  rm 2/
+ 1706  rm -r 2/
+ 1707  ls -l
+ 1708  cd 
+ 1709  ls -l
+ 1710  cd newest
+ 1711  cd -
+ 1712  mkdir 2
+ 1713  cd -
+ 1714  ls -l
+ 1715  cd newest
+ 1716  cd -
+ 1717  unlink newest
+ 1718  ls -l
+ 1719  ls -li qa2050/new/1/2
+ 1720  cd qa2050/
+ 1721  ls -l
+ 1722  stat err.txt 
+ 1723  ln err.txt new/1/2/err_link.txt
+ 1724  stat err.txt 
+ 1725  stat new/1/2/err_link.txt 
+ 1726  rm err.txt 
+ 1727  ls -l
+ 1728  ls -l new/1/2/
+ 1729  stat new/1/2/err_link.txt 
+ 1730  stat -c %i test.txt
+ 1731  stat -c test.txt
+ 1732  stat --help
+ 1733  stat -c %s test.txt
+ 1734  stat -c %h test.txt
+ 1735  ln test.txt hl.txt
+ 1736  stat -c %h test.txt
+ 1737  ls -li
+ 1738  echo hello > hl.txt 
+ 1739  ls -li
+ 1740  cat test.txt
+ 1741  rm hl.txt 
+ 1742  cat test.txt
+ 1743  whoami
+ 1744  host
+ 1745  hostname
+ 1746  adduser qa2050
+ 1747  sudo adduser qa2050
+ 1748  cat /etc/passwd
+ 1749  su - qa2050
+ 1750  su qa2050
+ 1751  ls -l
+ 1752  sudo chown qa2050:qa2050 test.txt
+ 1753  ls -l
+ 1754  cat test456 > test.txt
+ 1755  su qa2050
+ 1756  rm test.txt
+ 1757  ls -l
+ 1758  stat ../qa2050/
+ 1759  date
+ 1760  date; cd ~; ls -l
+ 1761  su - qa2050
+ 1762  vi .bashrc 
+ 1763  env
+ 1764  ls -l
+ 1765  env
+ 1766  vi ls
+ 1767  chmod 755 ls
+ 1768  ls -l
+ 1769  ls
+ 1770  rm ls
+ 1771  env
+ 1772  ls -l /usr/sbin/
+ 1773  ls -l /usr/bin/
+ 1774  ls -l /usr/bin/cat
+ 1775  cp /usr/bin/cat .
+ 1776  ls -ltr
+ 1777  mv cat pwd
+ 1778  pwd
+ 1779  ls -ltr
+ 1780  exit
+ 1781  ls -ltr
+ 1782  pwd
+ 1783  env
+ 1784  echo $PATH
+ 1785  export PATH="/home/kiruhs:$PATH"
+ 1786  env
+ 1787  pwd
+ 1788  ls -l
+ 1789  vi .bashrc 
+ 1790  source .bashrc 
+ 1791  pwd
+ 1792  vi .bashrc 
+ 1793  cat yrl.txt
+ 1794  /bin/vi .bashrc 
+ 1795  source .bashrc 
+ 1796  cat top.txt 
+ 1797  exit
+ 1798  ls -l
+ 1799  cat test.txt 
+ 1800  env
+ 1801  which ls
+ 1802  which pwd
+ 1803  type ls
+ 1804  /usr/bin/ls -l
+ 1805  ls -l
+ 1806  type ls
+ 1807  type cat
+ 1808  type -a ls
+ 1809  ls -l /
+ 1810  ls -l /usr/lib
+ 1811  ls -l /var/log/
+ 1812  cat /var/log/bootstrap.log 
+ 1813  more /var/log/bootstrap.log 
+ 1814  less /var/log/bootstrap.log 
+ 1815  head /var/log/bootstrap.log
+ 1816  head 3 /var/log/bootstrap.log
+ 1817  head -3 /var/log/bootstrap.log
+ 1818  head -30 /var/log/bootstrap.log
+ 1819  head -20 /var/log/bootstrap.log
+ 1820  tail /var/log/bootstrap.log
+ 1821  tail -1 /var/log/bootstrap.log
+ 1822  tail -4 /var/log/bootstrap.log
+ 1823  ls -l
+ 1824  cd qa2050/
+ 1825  ls -l
+ 1826  grep test
+ 1827  grep test .
+ 1828  ls -l
+ 1829  ls -l | grep test
+ 1830  touch mytest
+ 1831  ls -l | grep test
+ 1832  touch kiruhs
+ 1833  ls -l | grep kiruhs
+ 1834  ls -l | grep 387
+ 1835  cat test456 
+ 1836  grep world *
+ 1837  grep world 
+ 1838  grep world test456 
+ 1839  grep world .
+ 1840  grep world test*
+ 1841  echo world > mytest 
+ 1842  grep world *
+ 1843  grep -r world *
+ 1844  cd new/
+ 1845  echo world > ttt
+ 1846  cd -
+ 1847  grep -r world *
+ 1848  grep world *
+ 1849  grep world test*
+ 1850  vi test456 
+ 1851  grep world test*
+ 1852  grep -i world test*
+ 1853  vi test456 
+ 1854  grep -i world test*
+ 1855  grep -i error *
+ 1856  vi test456 
+ 1857  grep error test456 
+ 1858  grep -i error test456 
+ 1859  vi test456 
+ 1860  grep -i err test456 
+ 1861  vi test456 
+ 1862  grep -i err test456 
+ 1863  grep -i "err|cannot" test456 
+ 1864  grep -ie "err|cannot" test456 
+ 1865  egrep -i "err|cannot" test456 
+ 1866  vi test456 
+ 1867  egrep -i "err|cannot" test456 
+ 1868  grep -i "err" test456 | grep cannot
+ 1869  grep -i err test456 
+ 1870  grep -v err test456 
+ 1871  grep -iv err test456 
+ 1872  grep -v err test456 
+ 1873  grep -vn err test456 
+ 1874  grep -vn err *
+ 1875  grep -vnr err *
+ 1876  grep -vnir err *
+ 1877  grep -i err test456 
+ 1878  grep -ic err test456 
+ 1879  vi test456
+ 1880  grep -ic err test456 
+ 1881  grep -i err test456 
+ 1882  grep -i "err" test456 
+ 1883  grep -i "^err" test456 
+ 1884  grep -i "^error" test456 
+ 1885  grep -i "error$" test456 
+ 1886  vi test456
+ 1887  grep -i "^error$" test456 
+ 1888  grep -ix "error" test456 
+ 1889  vi test456 
+ 1890  grep -i "critical error" test456 
+ 1891  grep -i critical error test456 
+ 1892  vi test456 
+ 1893  grep -i critical error test456 
+ 1894  grep -i "critical error" test456 
+ 1895  grep -ix "critical error" test456 
+ 1896  grep -x "critical error" test456 
+ 1897  grep -ix "critical error" test456 
+ 1898  alias error="grep -ix 'critical error' ~/qa2050/test456"
+ 1899  cd /
+ 1900  error
+ 1901  ls -lA
+ 1902  cd
+ 1903  ls -lA
+ 1904  ls -lA | grep " ."
+ 1905  ls -lA | grep " \."
+ 1906  ls -lA | grep " \." | grep "^-"
+ 1907  ls -lA | grep "\s \." | grep "^-"
+ 1908  ls -lA | grep "\s\." | grep "^-"
+ 1909  ls -lAS
+ 1910  ls -lASr
+ 1911  env
+ 1912  alias
+ 1913  cat /etc/passwd
+ 1914  ls -lASri
+ 1915  kill 1197
+ 1916  killall top
+ 1917  bg
+ 1918  fg
+ 1919  cd /
+ 1920  cd ~
+ 1921  cd qa2050
+ 1922  mkdir exercise
+ 1923  cd exercise/
+ 1924  ls -lASr
+ 1925  cd ..
+ 1926  ls -lASr
+ 1927  cd -
+ 1928  ls -lASr ../ 
+ 1929  ls -lASr ../ > list
+ 1930  clear
+ 1931  ls -l
+ 1932  cat list 
+ 1933  chmod 600 list 
+ 1934  ls -l
+ 1935  head -1 list 
+ 1936  top
+ 1937  top d 5
+ 1938  top n 3
+ 1939  top
+ 1940  top -o VIRT
+ 1941  top -or VIRT
+ 1942  top >> top.txt
+ 1943  cat top.txt 
+ 1944  top
+ 1945  top -b
+ 1946  rm top.txt 
+ 1947  top -b >> top.txt
+ 1948  cat top.txt 
+ 1949  top
+ 1950  top -p 469
+ 1951  top
+ 1952  top &
+ 1953  top
+ 1954  fg
+ 1955  top
+ 1956  top &
+ 1957  top
+ 1958  jobs
+ 1959  killall top
+ 1960  fg
+ 1961  top d2 &
+ 1962  top d5 &
+ 1963  top &
+ 1964  jobs
+ 1965  fg 1
+ 1966  jobs
+ 1967  fg
+ 1968  jobs
+ 1969  fg
+ 1970  jobs
+ 1971  ps -a
+ 1972  ps a
+ 1973  ps au
+ 1974  ps -e
+ 1975  ps -ef
+ 1976  ps auf
+ 1977  top
+ 1978  echo $PATH
+ 1979  echo $HOME
+ 1980  su - qa2050
+ 1981  echo $USER
+ 1982  whoami
+ 1983  variable=40
+ 1984  echo $variable
+ 1985  env
+ 1986  env | grep variable
+ 1987  echo $variable
+ 1988  exit
+ 1989  cd /etc/profile.d/
+ 1990  ls -l
+ 1991  vi global_env.sh
+ 1992  sudo vi global_env.sh
+ 1993  cat global_env.sh 
+ 1994  source global_env.sh 
+ 1995  sudo chmod 755 global_env.sh 
+ 1996  source global_env.sh 
+ 1997  env
+ 1998  exit
+ 1999  echo $var
+ 2000  uptime
+ 2001  free
+ 2002  free -m
+ 2003  free -k
+ 2004  free -g
+ 2005  free -h
+ 2006  lscpu
+ 2007  lshw
+ 2008  lshw --short
+ 2009  lshw -short
+ 2010  cat /proc/cpuinfo 
+ 2011  uname
+ 2012  uname -a
+ 2013  sudo apt update
+ 2014  sudo apt install fdisk
+ 2015  fdisk -l
+ 2016  sudo fdisk -l
+ 2017  apt list --installed | grep fdisk
+ 2018  apt list | grep fdisk
+ 2019  dpkg -l
+ 2020  dpkg -l | grep fdisk
+ 2021  clear
+ 2022  arr=(1 2 3 4 'may' 'june' 'Alexander')
+ 2023  echo $arr
+ 2024  echo $arr[0]
+ 2025  echo ${arr[0]}
+ 2026  echo ${arr[1]}
+ 2027  echo ${arr[4]}
+ 2028  echo ${arr[@]}
+ 2029  echo ${!arr[@]}
+ 2030  for e in ${arr[@]}; do echo $e; done
+ 2031  for e in ${!arr[@]}; do echo $e; done
+ 2032  arr+=(50 '-')
+ 2033  for e in ${!arr[@]}; do echo $e; done
+ 2034  for e in ${arr[@]}; do echo $e; done
+ 2035  clear
+ 2036  echo ${arr[@]}
+ 2037  arr[0]=10
+ 2038  echo ${arr[@]}
+ 2039  echo ${#arr[@]}
+ 2040  echo ${#arr[6]}
+ 2041  echo ${#arr[5]}
+ 2042  arr[0]=$arr
+ 2043  echo ${arr[@]}
+ 2044  echo ${arr[0]}
+ 2045  {arr[0]}=$arr
+ 2046  echo ${arr[@]:3:2}
+ 2047  echo ${arr[@]:4:5}
+ 2048  echo ${arr[@]:4:6}
+ 2049  echo "\n"
+ 2050  echo "one \ntwo \nthree"
+ 2051  echo -e "one \ntwo \nthree"
+ 2052  echo -e "one \ttwo \tthree"
+ 2053  echo -e "\e[31m$(date)\e[0m"
+ 2054  echo $?
+ 2055  fdasf
+ 2056  echo $?
+ 2057  ls /root/
+ 2058  echo $?
+ 2059  cd qa2050
+ 2060  ls -l; echo Test
+ 2061  ls -l && echo Test
+ 2062  ls-l && echo Test
+ 2063  ls-l || echo Test
+ 2064  ls -l || echo Test
+ 2065  ls -l || lsTest || echo Test2
+ 2066  ls-l || lsTest || echo Test2
+ 2067  ls-l || echo Test $$ echo Test2
+ 2068  for i in {2021..2026};
+ 2069  for i in {2021..2026}; do echo $i; done
+ 2070  for i in {a..z}; do echo $i; done
+ 2071  for i in {d..p}; do echo $i; done
+ 2072  for i in {ddfssp}; do echo $i; done
+ 2073  for i in {2021..2026}; do mkdir $i; done
+ 2074  ls -l
+ 2075  tree
+ 2076  sudo apt install tree
+ 2077  for i in {2021..2026}; do rmdir $i; done
+ 2078  tree
+ 2079  for y in {2021..2026}; do mkdir $y; for m in {01..12}; do mkdir $y/$m; done
+ 2080  for y in {2021..2026}; do mkdir $y; for m in {01..12}; do mkdir $y/$m; done; done
+ 2081  tree
+ 2082  for y in {2021..2026}; do rm -r 202* $y;  done
+ 2083  for y in {2021..2026}; do rm -r 202*;  done
+ 2084  tree
+ 2085  while [ 1 -eq 1 ]; do date >> date.txt; sleep $((RANDOM%10)); done
+ 2086  clear
+ 2087  x=5
+ 2088  echo $x
+ 2089  x=x+3
+ 2090  echo $x
+ 2091  x=$x+3
+ 2092  echo $x
+ 2093  x=5
+ 2094  x=$x+3
+ 2095  echo $x
+ 2096  x=5
+ 2097  x=$(x+3)
+ 2098  x=${x+3}
+ 2099  echo $x
+ 2100  x=5
+ 2101  x=${x+3}
+ 2102  echo $x
+ 2103  x = 5
+ 2104  x=5
+ 2105  x=$((x+3))
+ 2106  echo $x
+ 2107  let x=$x+10
+ 2108  echo $x
+ 2109  ls -l
+ 2110  cd new/
+ 2111  ll
+ 2112  echo $SHELL
+ 2113  vi first.sh
+ 2114  ll
+ 2115  alias
+ 2116  chmod 755 first.sh 
+ 2117  ll
+ 2118  ls -l
+ 2119  cd ..
+ 2120  /new/first.sh
+ 2121  new/first.sh
+ 2122  cd -
+ 2124  vi first.sh
+ 2126  vi first.sh
+ 2128  vi first.sh
+ 2130  vi first.sh
+ 2132  vi while.sh
+ 2133  chmod 755 while.sh 
+ 2135  vi for.sh
+ 2136  chmod 755 for.sh 
+ 2138  vi case.sh
+ 2139  chmod 755 case.sh 
+ 2141  vi case.sh
+ 2142  vi calc.sh
+ 2143  chmod 755 calc.sh 
