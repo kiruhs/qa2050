@@ -1,3 +1,22 @@
+ 1454  ll
+ 1455  cd kiruh/OneDrive/
+ 1456  ll
+ 1457  cd Documents/
+ 1458  ll
+ 1459  cd Python/
+ 1460  ll
+ 1461  grep -r send *.txt
+ 1462  cd ../../../PycharmProjects/
+ 1463  ll
+ 1464  ll ../
+ 1465  grep -r ../qa2048/*.py
+ 1466  grep -r send ../qa2048/*.py
+ 1467  cd ../qa2048/
+ 1468  grep -r send *.py
+ 1469  ll
+ 1470  grep -r send qa2048/*.py
+ 1471  cd ../PycharmProjects/qa2051/
+ 1472  grep -r send *.py
  1473  # pwd
  1474  # blblblblb
  1475  pwd
@@ -654,3 +673,190 @@
  2141  vi case.sh
  2142  vi calc.sh
  2143  chmod 755 calc.sh 
+ 2010  cat log.log 
+ 2011  cat log.log | wc -l
+ 2013  cd qa2050/
+ 2014  mkdir homework
+ 2015  cd homework/
+ 2016  vi user.sh
+ 2017  chmod 755 user.sh 
+ 2018  vi user.sh 
+ 2020  vi user.sh 
+ 2022  vi user.sh 
+ 2024  top -u $USER
+ 2025  top -u $USER -b > top.log
+ 2026  cat top.log 
+ 2027  top -b | grep kiruhs > top2.log 
+ 2028  cat top2.log 
+ 2029  ls -l
+ 2030  top -b | grep --line-buffered kiruhs > top2.log 
+ 2031  cat top2.log 
+ 2032  cat top.log | wc -l
+ 2033  cat top2.log | wc -l
+ 2034  cat top2.log | wc -w
+ 2035  cat top2.log | wc -m
+ 2036  cat top2.log | wc -c
+ 2037  cd
+ 2038  pwd
+ 2039  ls -l | grep test
+ 2040  ls -l | grep -r test
+ 2041  clear
+ 2042* find / -name "test*"
+ 2043  mkdir qa2050/dir01
+ 2044  mkdir qa2050/dir02
+ 2045  mkdir qa2050/dir4
+ 2046  mkdir qa2050/dir4/dir5
+ 2047  find . -type d -name "dir*"
+ 2048  find . -type d -name "dir?"
+ 2049  find . -type d -name "dir??"
+ 2050  find . -type d -name "?dir??"
+ 2051  touch qa2050/dir01/dir9
+ 2052  find . -type d -name "dir?"
+ 2053  find . -type f -name "dir?"
+ 2054  find . -type f -o -type d -name "dir?"
+ 2055  find . -type f -name "dir?" -o -type d -name "dir?"
+ 2056  find . -type d -empty
+ 2057  ls -l qa2051/
+ 2058  ls -l qa2051/file.txt/
+ 2059  find . -type d -empty
+ 2060  find . -maxdepth 2 -type d -empty
+ 2061  find . -maxdepth 3 -type d -empty
+ 2062  find . -maxdepth 3 -user root
+ 2063  find /home/ -maxdepth 3 -user root
+ 2064  sudo find /home/ -maxdepth 3 -user root
+ 2065  ls -l /home/
+ 2066  ls -l /
+ 2067  sudo find /tmp/ -maxdepth 3 -user root
+ 2068  ls -l /tmp/
+ 2069  ls -l text4sed 
+ 2070  cat text4sed 
+ 2071  touch some_file
+ 2072  cd qa2050
+ 2073  ls -l
+ 2074  find . -newer ../text4sed -type f
+ 2075  find . -newer homework/top.log -type f
+ 2076  ls exercise/
+ 2077  ls new/
+ 2078  find . -type f -perm 755
+ 2079  find . -type d -perm 755
+ 2080  find . -type f -perm 644
+ 2081  find . -type f -size +10K -perm 644
+ 2082  find . -type f -size +10k -perm 644
+ 2083  find . -type f -size +10k -perm 644 -exec ls -l {} \;
+ 2084  find . -type f -size +10k -perm 644 -exec ls {} \;
+ 2085  find . -type f -size +10k -perm 644 -exec ls -l {} \;
+ 2086  find . -type f -emty
+ 2087  find . -type f -empty
+ 2088  find . -type f -empty -exec rmdir {} \;
+ 2089  find . -type f -empty -exec rm {} \;
+ 2090  find . -type f -empty
+ 2091  find . -type d -empty
+ 2092  find . -type f -empty -exec rmdir {} \;
+ 2093  find . -type d -empty
+ 2094  find . -type d -empty -exec rmdir {} \;
+ 2095  find . -type d -empty
+ 2096  find . -type d -empty -exec rmdir {} \;
+ 2097  find . -type d -empty
+ 2098  find . -mtime -1
+ 2099  find . -mtime -2
+ 2100  find . -mtime -5
+ 2101  ls -l
+ 2102  cat top2 
+ 2103  cat top2 | sort -nk 5
+ 2104  cat top2 | sort -nk 11
+ 2105  cat top2 | sort -nk 12
+ 2106  cat top2 | sort -nk 10
+ 2107  cat top2 | sort -nk 9
+ 2108  cat top2 | sort -nk 8
+ 2109  cat top2 | sort -nk 6
+ 2110  cat top2 | sort -nk 7
+ 2111  cat top2 | sort -nk 1
+ 2112  cat top2 | sort -k 11
+ 2113  cat top2 | sort -k 12
+ 2114  cat top2 | sort -r -k 12
+ 2115  cp ../text4sed .
+ 2116  cat text4sed 
+ 2117  sed 's/unix/linux/' text4sed
+ 2118  sed 's/unix/linux/2' text4sed
+ 2119  sed 's/unix/linux/g' text4sed
+ 2120  sed 's/unix/linux/2g' text4sed
+ 2121  sed '4 s/unix/linux/' text4sed
+ 2122  sed 's/unix/linux/p' text4sed
+ 2123  sed -n 's/unix/linux/p' text4sed
+ 2124  sed '1,3 s/unix/linux/g' text4sed
+ 2125  sed '1,3 s/linux/unix/g' text4sed
+ 2126  sed '2,$ s/linux/unix/g' text4sed
+ 2127  sed '2d' text4sed
+ 2128  cat text4sed 
+ 2129  sed '1,3d' text4sed
+ 2130  sed '3,$d' text4sed
+ 2131  sed '$d' text4sed
+ 2132  sed '/linux/d' text4sed
+ 2133  sed '/unix/d' text4sed
+ 2134  sed '/unix/Id' text4sed
+ 2135  sed 's/unix/linux/g' text4sed
+ 2136  sed 's/unix/linux/Ig' text4sed
+ 2137  sed G text4sed
+ 2138  sed 2G text4sed
+ 2139  sed /linux/G text4sed
+ 2140  sed '/linux/G' text4sed
+ 2141  sed '/linux/{x;p;x;}' text4sed
+ 2142  sed 's/^/    /' text4sed
+ 2143  sed 's/^/hello /' text4sed
+ 2144  sed = text4sed | sed 'N;s/\n/\t/'
+ 2145  sed = text4sed | sed 'N;'
+ 2146  sed = text4sed | sed 'N;s/\n/ /'
+ 2147  sed '/^$/d'
+ 2148  sed '/^$/d' text4sed 
+ 2149  sed '/^$/d' | sed = text4sed | sed 'N;s/\n/ /'
+ 2150  sed '/^$/d' text4sed | sed = text4sed | sed 'N;s/\n/ /'
+ 2151  sed = text4sed | sed 'N;s/\n/ /' | sed '/^[0-9]$/d' 
+ 2152  sed 'y/abcdefghij/0123456789/' text4sed 
+ 2153  sed 'y/abcdefghij/012345678/' text4sed 
+ 2154  sed 'y/abcdefghij/klmnopqrst/' text4sed 
+ 2155  sed 'y/abcdefghij/klmnopqrst/' text4sed > encrypt
+ 2156  sed 'y/klmnopqrst/abcdefghij/' encrypt
+ 2157  cat encrypt 
+ 2158  sed 'y/abcdefghij/012345678/' text4sed > encrypt 
+ 2159  sed 'y/abcdefghij/0123456789/' text4sed > encrypt 
+ 2160  sed 'y/0123456789/abcdefghij/' encrypt 
+ 2161  sed 's/unix/linux/g' text4sed
+ 2162  sed -i 's/unix/linux/g' text4sed
+ 2163  cat text4sed 
+ 2164  sed 'y/abcdefghijklmnopqrstuvwxyz/zabcdefghijklmnopqrstuvwxy/' text4sed > encrypt
+ 2165  cat encrypt 
+ 2166  sed 'y/zabcdefghijklmnopqrstuvwxy/abcdefghijklmnopqrstuvwxyz' encrypt
+ 2167  sed 'y/zabcdefghijklmnopqrstuvwxy/abcdefghijklmnopqrstuvwxyz/' encrypt
+ 2168  cd new/
+ 2169  vi independ.sh
+ 2170  chmod 755 independ.sh 
+ 2172  vi independ.sh
+ 2174  su - qa2050
+ 2175  ls -ltr
+ 2176  cat calc.sh 
+ 2177  vi adder.sh
+ 2178  chmod 755 adder.sh 
+ 2181  vi adder.sh
+ 2183  echo $?
+ 2190  vi adder.sh
+ 2193  vi adder.sh
+ 2199  ls -ltr
+ 2200  vi search.sh
+ 2201  chmod 755 search.sh 
+ 2203  ls -l 1
+ 2204  ls -l 1/2/
+ 2206  vi search.sh
+ 2207  cat /etc/passwd
+ 2208  ls -l /etc/
+ 2209  ls -l /etc/passwd
+ 2210  ls -l /etc/hosts 
+ 2212  vi fact.sh
+ 2213  chmod 755 fact.sh 
+ 2215  vi fact.sh
+ 2217  vi fact.sh
+ 2219  vi fact.sh
+ 2221  vi fact.sh
+ 2223  vi fact.sh
+ 2227  vi fact.sh
+ 2229  vi compare.sh
+ 2230  chmod 755 compare.sh 
